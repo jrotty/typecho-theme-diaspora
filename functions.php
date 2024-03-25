@@ -16,7 +16,7 @@ if ($version >= "1.2.0" && class_exists("Typecho\Widget\Helper\Form\Element")) {
 require_once("lib/Const.php");
 require_once("lib/Diaspora.php");
 require_once("lib/Settings.php");
-require_once("lib/Title${componentSuffix}.php");
+require_once("lib/Title{$componentSuffix}.php");
 require_once("lib/Content.php");
 
 function themeInit(Widget_Archive $archive) {
